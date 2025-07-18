@@ -23,14 +23,7 @@ public class DriverManager {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
-
-                // Future support for other browsers can be added here
-                // Example:
-                // case "firefox":
-                //     WebDriverManager.firefoxdriver().setup();
-                //     driver = new FirefoxDriver();
-                //     break;
-
+                    
                 default:
                     // Throw error if unsupported browser is specified
                     throw new RuntimeException("Unsupported browser");
