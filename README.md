@@ -27,7 +27,7 @@ Make sure the following are installed:
 - ✅ [Java JDK 21+]
 - ✅ [Maven](https://maven.apache.org/install.html)
 - ✅ [Git](https://git-scm.com/)
-- ✅ A modern IDE (like IntelliJ IDEA or Eclipse)
+- ✅ IDE IntelliJ IDEA
 
 ---
 
@@ -103,7 +103,7 @@ After test execution:
 /test-output/ExtentReports/
 ```
 
-📝 Open `ExtentReport.html` to view the detailed result with screenshots (if enabled), status, timestamps, etc.
+📝 Open `ExtentReport.html` to view the detailed result.
 
 ---
 
